@@ -11,7 +11,9 @@ import { proto as CMSSyncResp } from "./protobuf/protos/CMSSyncResp";
 import { proto as StartSharplaSessionReq } from "./protobuf/protos/StartSharplaSessionReq";
 import { proto as StartSharplaSessionResp } from "./protobuf/protos/StartSharplaSessionResp";
 import { Client } from "./Client";
+import process from "process";
 
+const PORT = process.env.PORT || 7770;
 const clients = new Map<net.Socket, Client>();
 
 const saClient = tls.connect(
@@ -158,8 +160,8 @@ net
       console.error("Local socket error:", err.message);
     });
   })
-  .listen(3000, "0.0.0.0", () => {
-    console.log("Local proxy server listening on port 3000");
+  .listen(PORT, "0.0.0.0", () => {
+    console.log("Local proxy server listening on port "+PORT);
   });
 
 function preparePacket<T extends Record<string, string | number>>(
