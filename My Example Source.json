@@ -1,0 +1,48 @@
+{
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Beatstar",
+      "bundleIdentifier": "com.beatclone.beatstar",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/t484V94.png",
+      "tintColor": "#a509f5",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://drive.usercontent.google.com/download?id=1Ee4gYWURxGauJb-6hr92n9byJ1284Agw&export=download&authuser=0&confirm=t&uuid=5f00e008-5a7a-484c-8fed-c56c24f82da1&at=ALWLOp7w55fiiVDpdzC36qGk6WqC%3A1762550685372",
+          "size": 175500000,
+          "version": "36.1.4",
+          "buildVersion": null,
+          "date": "2025-11-07T21:17:00+01:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
+          "NSAppleMusicUsageDescription": "Add your liked songs to an Apple Music Playlist and claim a free Beatstar song matched from your music collection",
+          "NSCameraUsageDescription": "Friend code",
+          "NSMicrophoneUsageDescription": "Marketing",
+          "NSPhotoLibraryUsageDescription": "This allows us to access your camera roll so you can upload photos.",
+          "NSUserTrackingUsageDescription": "Sharing your data allows us to optimize the video ads we show."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
