@@ -4,7 +4,6 @@
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
   "website": "https://altstudio.app",
-  "patreonURL": null,
   "tintColor": "#6156e2",
   "featuredApps": [],
   "apps": [
@@ -21,7 +20,7 @@
       "screenshots": [],
       "versions": [
         {
-          "downloadURL": "https://www.dropbox.com/scl/fi/lnqbsywxm4wxmisygp81i/Beatclone.ipa?dl=1",
+          "downloadURL": "https://e0f60393db02.ngrok-free.app/Beatclone.ipa",
           "size": 175500000,
           "version": "36.1.4",
           "buildVersion": "35522557.0.4",
@@ -40,8 +39,7 @@
           "NSPhotoLibraryUsageDescription": "This allows us to access your camera roll so you can upload photos.",
           "NSUserTrackingUsageDescription": "Sharing your data allows us to optimize the video ads we show."
         }
-      },
-      "patreon": {}
+      }
     }
   ],
   "news": []
